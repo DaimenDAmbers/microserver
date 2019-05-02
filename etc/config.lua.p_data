@@ -1,0 +1,1 @@
+scripts={ Thingworx={ max_run_time=20, file="thingworx.lua", }, }

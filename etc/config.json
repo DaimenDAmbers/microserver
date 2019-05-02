@@ -1,0 +1,31 @@
+
+{
+    "ws_servers":   [{
+            "host": "pp-1901291615ip.devportal.ptc.io",
+            "port": 443
+        }],
+    "resource": "/Thingworx/WS",
+    "http_server":  {
+        "host": "127.0.0.1",
+        "port": 8080,
+	"ssl": false,
+	"authenticate": false
+    },
+    "appKey":   "f1a0b8da-0c90-4a51-a26e-584d3bf9e6e8",
+    "logger":   {
+        "level":    "DEBUG"
+    },
+    "auto_bind":    [{
+            "name": "ScannerThing",
+            "gateway":  false
+        }],
+    "certificates": {
+        "validate": false,
+        "allow_self_signed": true
+    },
+    "ws_connection":    {
+        "encryption":   "ssl",
+        "verbose":  true,
+        "msg_timeout":  1000
+    }
+}
